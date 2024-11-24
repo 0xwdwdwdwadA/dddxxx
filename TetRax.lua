@@ -19,8 +19,8 @@ local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 for i, v in pairs(HWIDTable) do
     if v == HWID then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/DINERO9/TXXK-9988332231C/refs/heads/main/TXX-0099998877ACSSSCRIv2"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DINERO9/TXXK-9988332231C/refs/heads/main/TXX-0099998877ACSSSCRIv2"))()
     elseif v ~= HWID then
-		print("你没有白名单!")
+	print("你没有白名单!")
     end
 end
