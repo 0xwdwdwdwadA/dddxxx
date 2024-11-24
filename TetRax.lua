@@ -32,5 +32,6 @@ sound.Volume = 3
 sound.PlayOnRemove = true
 sound:Destroy()
 end
+wait(10000)
     end
 end
