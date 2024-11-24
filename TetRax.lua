@@ -24,7 +24,7 @@ for i, v in pairs(HWIDTable) do
 Notify({
 Description = "请加群获得白名单:669173744";
 Title = "你没有白名单!";
-Duration = 5;
+Duration = 100;
 });
 local sound = Instance.new("Sound", workspace) do
 sound.SoundId = "rbxassetid://4590662766"
@@ -32,6 +32,5 @@ sound.Volume = 3
 sound.PlayOnRemove = true
 sound:Destroy()
 end
-wait(10000)
     end
 end
